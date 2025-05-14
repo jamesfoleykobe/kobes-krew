@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kobe's Krew</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    header img {
+      width: 100px;
+      height: auto;
+    }
+    nav {
+      text-align: center;
+      margin-top: 1rem;
+    }
+    nav a {
+      color: #000;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .products, .about, .contact {
+      padding: 2rem;
+      text-align: center;
+    }
+    footer {
+      background-color: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Kobe's Krew Logo">
+    <h1>Kobe's Krew</h1>
+    <p>Join the pack. Wear the love. 🐶</p>
+  </header>
+
+  <nav>
+    <a href="#products">Shop</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Stylish Merch for Dog Lovers</h1>
+    <p>Discover apparel, accessories, and gifts inspired by the loyalty and spirit of dogs. Whether you’re a proud pet parent or just love clean, bold design, Kobe’s Krew has something for you.</p>
+  </section>
+
+  <section id="products" class="products">
+    <h2>Featured Products</h2>
+    <p>Check us out on <a href="https://www.redbubble.com" target="_blank">Redbubble</a> for hoodies, stickers, mugs, and more!</p>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Kobe's Krew</h2>
+    <p>Kobe's Krew is a lifestyle brand built on love, loyalty, and community. Inspired by our furry best friend Kobe, our mission is to spread joy through minimal and meaningful design.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email us at: <a href="mailto:contact@kobeskrew.com">contact@kobeskrew.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kobe's Krew. All rights reserved.</p>
+  </footer>
+</body>
+</html>
